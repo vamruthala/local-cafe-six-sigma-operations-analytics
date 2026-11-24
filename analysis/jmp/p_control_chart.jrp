@@ -1,0 +1,106 @@
+﻿Local Here(
+	(table1 = New Table( "Local_Cafe Filtered Data_Sheet2",
+		Add Rows( 150 ),
+		New Column( "Food_Quality_Rating",
+			Numeric,
+			"Continuous",
+			Format( "Best", 12 ),
+			Set Values(
+				[3, 3, 4, 4, 3, 6, 3, 6, 3, 3, 4, 4, 3, 5, 5, 5, 4, 3, 3, 5, 3, 3, 4,
+				3, 4, 3, 6, 4, 4, 5, 5, 6, 6, 3, 4, 4, 4, 4, 5, 5, 6, 4, 4, 5, 4, 5,
+				3, 6, 4, 4, 3, 4, 3, 5, 4, 5, 6, 5, 3, 3, 5, 6, 5, 3, 5, 3, 6, 3, 3,
+				4, 6, 6, 4, 6, 4, 6, 3, 3, 6, 6, 6, 5, 4, 5, 4, 3, 3, 6, 3, 3, 4, 6,
+				4, 5, 5, 5, 6, 4, 3, 5, 4, 3, 6, 4, 5, 3, 3, 3, 4, 3, 6, 5, 6, 3, 4,
+				6, 5, 4, 5, 4, 4, 5, 5, 5, 4, 3, 4, 3, 5, 6, 3, 3, 6, 3, 6, 6, 3, 5,
+				6, 6, 5, 5, 6, 6, 3, 3, 5, 3, 4, 5]
+			)
+		),
+		New Column( "Column 2",
+			Numeric,
+			"Continuous",
+			Format( "Best", 12 ),
+			Set Values(
+				[., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., .]
+			)
+		),
+		New Column( "Food_Quality_ Pass/Fail",
+			Character( 8 ),
+			"Nominal",
+			Set Values(
+				{"Fail", "Fail", "Pass", "Pass", "Fail", "Pass", "Fail", "Pass",
+				"Fail", "Fail", "Pass", "Pass", "Fail", "Pass", "Pass", "Pass",
+				"Pass", "Fail", "Fail", "Pass", "Fail", "Fail", "Pass", "Fail",
+				"Pass", "Fail", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass",
+				"Pass", "Fail", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass",
+				"Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Fail", "Pass",
+				"Pass", "Pass", "Fail", "Pass", "Fail", "Pass", "Pass", "Pass",
+				"Pass", "Pass", "Fail", "Fail", "Pass", "Pass", "Pass", "Fail",
+				"Pass", "Fail", "Pass", "Fail", "Fail", "Pass", "Pass", "Pass",
+				"Pass", "Pass", "Pass", "Pass", "Fail", "Fail", "Pass", "Pass",
+				"Pass", "Pass", "Pass", "Pass", "Pass", "Fail", "Fail", "Pass",
+				"Fail", "Fail", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass",
+				"Pass", "Pass", "Fail", "Pass", "Pass", "Fail", "Pass", "Pass",
+				"Pass", "Fail", "Fail", "Fail", "Pass", "Fail", "Pass", "Pass",
+				"Pass", "Fail", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass",
+				"Pass", "Pass", "Pass", "Pass", "Pass", "Fail", "Pass", "Fail",
+				"Pass", "Pass", "Fail", "Fail", "Pass", "Fail", "Pass", "Pass",
+				"Fail", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass", "Pass",
+				"Fail", "Fail", "Pass", "Fail", "Pass", "Pass"}
+			)
+		),
+		New Column( "Column 4",
+			Numeric,
+			"Continuous",
+			Format( "Best", 12 ),
+			Set Values(
+				[., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., .]
+			)
+		),
+		New Column( "Column 5",
+			Numeric,
+			"Continuous",
+			Format( "Best", 12 ),
+			Set Values(
+				[., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., ., .,
+				., ., ., ., ., ., ., ., ., ., ., .]
+			)
+		),
+		New Column( "N trials",
+			Numeric,
+			"Continuous",
+			Format( "Best", 12 ),
+			Set Values(
+				[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+			)
+		)
+	)) << Run Formulas;
+	table1 << Control Chart Builder(
+		Class( Shewhart Attribute ),
+		Variables( Y( :"Food_Quality_ Pass/Fail"n ), n Trials( :N trials ) ),
+		Chart( Points( Statistic( "Proportion" ) ), Limits( Sigma( "Binomial" ) ) ),
+		Show Control Panel( 0 )
+	);
+)
