@@ -8,7 +8,7 @@
 
 ## Project overview
 
-I led the analysis and documentation, using DMAIC to connect customer experience measures, root-cause analysis, proposed changes, and control planning. Excel supported the work; Pareto analysis, fishbone analysis, control charts, and hypothesis tests helped prioritize operational issues.
+My role covered the analysis and documentation, using DMAIC to connect customer experience measures, root-cause analysis, proposed changes, and control planning. Excel supported the work; Pareto analysis, fishbone analysis, control charts, and hypothesis tests helped prioritize operational issues.
 
 ## DMAIC pipeline
 
@@ -104,5 +104,4 @@ data_visualization_and_analysis/
 ├── customer-issue-pareto.png
 └── root-cause-fishbone.png
 ```
-
 
