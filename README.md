@@ -82,7 +82,7 @@ The baseline uses a **150-record judgmental sample** built for this analysis fro
 - `data/baseline_dataset.xlsx` — baseline sample data.
 - `data/pilot_dataset.xlsx` — pilot sample data.
 - `data/hypothesis_testing.xlsx` — supporting statistical test outputs.
-- `analysis/jmp/` — five JMP journals for Pareto and control-chart analysis.
+- [Download the JMP journals (ZIP)](analysis/jmp/jmp-analysis-files.zip) — five journals for use in JMP.
 
 ## Repository structure
 
@@ -94,11 +94,7 @@ data/
 └── pilot_dataset.xlsx
 analysis/
 └── jmp/
-    ├── imr_control_chart.jrp
-    ├── np_control_chart.jrp
-    ├── p_control_chart.jrp
-    ├── pareto_issue_analysis.jrp
-    └── xbar_r_control_chart.jrp
+    └── jmp-analysis-files.zip
 data_visualization_and_analysis/
 ├── baseline-and-pilot-summary.png
 ├── customer-issue-pareto.png
