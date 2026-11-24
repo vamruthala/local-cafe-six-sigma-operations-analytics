@@ -77,19 +77,32 @@ No predictive model was fitted, so AUC, precision, and forecast error do not app
 
 The baseline uses a **150-record judgmental sample** built for this analysis from a personal visit and scenario assumptions; the separate **150-record pilot** is also scenario-based. Neither represents cafe transaction-system data. The pilot values do not establish realized savings or validated operational impact. Consistent observed samples and shared rating scales would be needed to validate the proposed changes.
 
+## Project files
+
+- `data/baseline_dataset.xlsx` — baseline sample data.
+- `data/pilot_dataset.xlsx` — pilot sample data.
+- `data/hypothesis_testing.xlsx` — supporting statistical test outputs.
+- `analysis/jmp/` — five JMP journals for Pareto and control-chart analysis.
+
 ## Repository structure
 
 ```text
 README.md
+data/
+├── baseline_dataset.xlsx
+├── hypothesis_testing.xlsx
+└── pilot_dataset.xlsx
+analysis/
+└── jmp/
+    ├── imr_control_chart.jrp
+    ├── np_control_chart.jrp
+    ├── p_control_chart.jrp
+    ├── pareto_issue_analysis.jrp
+    └── xbar_r_control_chart.jrp
 data_visualization_and_analysis/
 ├── baseline-and-pilot-summary.png
 ├── customer-issue-pareto.png
 └── root-cause-fishbone.png
 ```
-
-
-
-
-
 
 
